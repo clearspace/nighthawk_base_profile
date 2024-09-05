@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - nighthawk_base
-id: nighthawk_base_site_branding
-theme: nighthawk_base
+    - nighthawk_base_theme
+id: nighthawk_base_theme_site_branding
+theme: nighthawk_base_theme
 region: header_left
 weight: -3
 provider: null

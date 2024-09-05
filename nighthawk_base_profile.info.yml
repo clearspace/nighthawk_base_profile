@@ -152,7 +152,7 @@ install:
 themes:
   - olivero
   - claro 
-  - nighthawk_base
+  - nighthawk_base_theme
 default_content:
   node:
     - 95013d81-b1f6-41e9-b2fc-8ec2a5faf4ba

@@ -4,10 +4,10 @@ dependencies:
   config:
     - system.menu.main
   theme:
-    - nighthawk_base
-id: main__nighthawk_base
+    - nighthawk_base_theme
+id: main__nighthawk_base_theme
 menu: main
-theme: nighthawk_base
+theme: nighthawk_base_theme
 block_config: |-
   {
       "animation": "none",

@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - nighthawk_base
-id: nighthawk_base_topheaderrightmenu
-theme: nighthawk_base
+    - nighthawk_base_theme
+id: nighthawk_base_theme_topheaderrightmenu
+theme: nighthawk_base_theme
 region: top_header_right
 weight: 0
 provider: null
