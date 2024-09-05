@@ -1,0 +1,6 @@
+mode: intermediate
+ignored_config_entities:
+  import:
+    - nighthawk_base.settings
+    - system.theme.global
+  export: {  }

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: footer-copyright-menu
+label: 'Footer Copyright Menu'
+description: ''
+locked: false

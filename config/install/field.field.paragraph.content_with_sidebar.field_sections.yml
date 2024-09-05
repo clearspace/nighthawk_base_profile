@@ -1,0 +1,120 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sections
+    - paragraphs.paragraphs_type.a11y_paragraphs_tabs_wrapper
+    - paragraphs.paragraphs_type.accordions
+    - paragraphs.paragraphs_type.content_with_sidebar
+    - paragraphs.paragraphs_type.four_columns
+    - paragraphs.paragraphs_type.image_and_text
+    - paragraphs.paragraphs_type.media_download_list
+    - paragraphs.paragraphs_type.pull_quote
+    - paragraphs.paragraphs_type.table
+    - paragraphs.paragraphs_type.text_area
+    - paragraphs.paragraphs_type.three_columns
+    - paragraphs.paragraphs_type.two_columns
+    - paragraphs.paragraphs_type.video
+    - paragraphs.paragraphs_type.view
+    - paragraphs.paragraphs_type.webform
+  module:
+    - entity_reference_revisions
+id: paragraph.content_with_sidebar.field_sections
+field_name: field_sections
+entity_type: paragraph
+bundle: content_with_sidebar
+label: Sections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      four_columns: four_columns
+      text_area: text_area
+      two_columns: two_columns
+      view: view
+      video: video
+      accordions: accordions
+      three_columns: three_columns
+      a11y_paragraphs_tabs_wrapper: a11y_paragraphs_tabs_wrapper
+      image_and_text: image_and_text
+      media_download_list: media_download_list
+      table: table
+      pull_quote: pull_quote
+      webform: webform
+    negate: 0
+    target_bundles_drag_drop:
+      a11y_paragraphs_tab_content:
+        weight: 20
+        enabled: false
+      a11y_paragraphs_tabs_panel:
+        weight: 18
+        enabled: false
+      a11y_paragraphs_tabs_wrapper:
+        weight: 19
+        enabled: true
+      accordion:
+        weight: 15
+        enabled: false
+      accordions:
+        weight: 16
+        enabled: true
+      content:
+        weight: 3
+        enabled: false
+      content_with_sidebar:
+        weight: 14
+        enabled: false
+      four_columns:
+        weight: 5
+        enabled: true
+      hero:
+        weight: 4
+        enabled: false
+      image_and_text:
+        weight: 28
+        enabled: true
+      image_text_with_link:
+        weight: 10
+        enabled: false
+      image_title_text_link:
+        weight: 18
+        enabled: false
+      link:
+        weight: 15
+        enabled: false
+      media:
+        weight: 34
+        enabled: false
+      media_download_list:
+        weight: 35
+        enabled: true
+      pull_quote:
+        weight: 38
+        enabled: true
+      table:
+        weight: 37
+        enabled: true
+      text_area:
+        weight: 11
+        enabled: true
+      three_columns:
+        weight: 17
+        enabled: true
+      two_columns:
+        weight: 12
+        enabled: true
+      video:
+        weight: 15
+        enabled: true
+      view:
+        weight: 14
+        enabled: true
+      webform:
+        weight: 46
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,3 @@
+selectors: ".node\r\n.paragraph"
+custom_vendors: ''
+ignore_selectors: ''

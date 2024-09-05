@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:efdc1427-1c1d-4850-932d-ffeb56d04cad'
+  module:
+    - block_content
+  theme:
+    - nighthawk_base
+id: nighthawk_base_footercolumn2
+theme: nighthawk_base
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:efdc1427-1c1d-4850-932d-ffeb56d04cad'
+settings:
+  id: 'block_content:efdc1427-1c1d-4850-932d-ffeb56d04cad'
+  label: 'Footer Column 2'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

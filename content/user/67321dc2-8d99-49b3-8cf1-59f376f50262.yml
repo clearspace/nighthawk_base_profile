@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 67321dc2-8d99-49b3-8cf1-59f376f50262
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: andrea
+  pass:
+    -
+      value: $2y$10$dzCB2SrEKgug4J4H.xPOXOMdKU2Nl30CxXN966LzMGTNTRvtNtyMm
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: andrea@nighthawkmarketing.com
+  timezone:
+    -
+      value: America/Chicago
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722274691
+  access:
+    -
+      value: 1724961822
+  login:
+    -
+      value: 1724266914
+  init:
+    -
+      value: andrea@nighthawkmarketing.com
+  roles:
+    -
+      target_id: administrator
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

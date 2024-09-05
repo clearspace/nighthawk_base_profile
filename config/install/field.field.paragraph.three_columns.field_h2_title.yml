@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_h2_title
+    - paragraphs.paragraphs_type.three_columns
+id: paragraph.three_columns.field_h2_title
+field_name: field_h2_title
+entity_type: paragraph
+bundle: three_columns
+label: 'H2 Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

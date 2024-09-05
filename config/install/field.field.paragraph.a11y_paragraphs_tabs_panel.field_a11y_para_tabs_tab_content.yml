@@ -1,0 +1,78 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_a11y_para_tabs_tab_content
+    - paragraphs.paragraphs_type.a11y_paragraphs_tab_content
+    - paragraphs.paragraphs_type.a11y_paragraphs_tabs_panel
+  module:
+    - entity_reference_revisions
+id: paragraph.a11y_paragraphs_tabs_panel.field_a11y_para_tabs_tab_content
+field_name: field_a11y_para_tabs_tab_content
+entity_type: paragraph
+bundle: a11y_paragraphs_tabs_panel
+label: 'Tab Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      a11y_paragraphs_tab_content: a11y_paragraphs_tab_content
+    negate: 0
+    target_bundles_drag_drop:
+      a11y_paragraphs_tab_content:
+        weight: 6
+        enabled: true
+      a11y_paragraphs_tabs_panel:
+        weight: 3
+        enabled: false
+      a11y_paragraphs_tabs_wrapper:
+        weight: 4
+        enabled: false
+      accordion:
+        weight: 21
+        enabled: false
+      accordions:
+        weight: 22
+        enabled: false
+      content:
+        weight: 23
+        enabled: false
+      content_with_sidebar:
+        weight: 24
+        enabled: false
+      four_columns:
+        weight: 25
+        enabled: false
+      hero:
+        weight: 26
+        enabled: false
+      image_text_with_link:
+        weight: 27
+        enabled: false
+      image_title_text_link:
+        weight: 28
+        enabled: false
+      link:
+        weight: 29
+        enabled: false
+      text_area:
+        weight: 30
+        enabled: false
+      three_columns:
+        weight: 31
+        enabled: false
+      two_columns:
+        weight: 32
+        enabled: false
+      video:
+        weight: 33
+        enabled: false
+      view:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

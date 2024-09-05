@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.a11y_paragraphs_tabs_wrapper.field_a11y_para_tabs_tabs_panel
+    - field.field.paragraph.a11y_paragraphs_tabs_wrapper.field_h2_title
+    - paragraphs.paragraphs_type.a11y_paragraphs_tabs_wrapper
+  module:
+    - entity_reference_revisions
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.a11y_paragraphs_tabs_wrapper.default
+targetEntityType: paragraph
+bundle: a11y_paragraphs_tabs_wrapper
+mode: default
+content:
+  field_a11y_para_tabs_tabs_panel:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_h2_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

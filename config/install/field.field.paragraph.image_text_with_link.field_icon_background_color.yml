@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon_background_color
+    - paragraphs.paragraphs_type.image_text_with_link
+  module:
+    - options
+id: paragraph.image_text_with_link.field_icon_background_color
+field_name: field_icon_background_color
+entity_type: paragraph
+bundle: image_text_with_link
+label: 'Icon Background Color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

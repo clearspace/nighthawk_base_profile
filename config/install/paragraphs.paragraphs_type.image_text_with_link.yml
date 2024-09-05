@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: image_text_with_link
+label: 'Image/Text with Link'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

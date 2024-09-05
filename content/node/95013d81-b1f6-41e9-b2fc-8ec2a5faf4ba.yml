@@ -1,0 +1,114 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 95013d81-b1f6-41e9-b2fc-8ec2a5faf4ba
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Front Page'
+  created:
+    -
+      value: 1721751188
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_hero:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4b8d875b-23e5-4cc3-8ca4-c814f556c82b
+          bundle: hero
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1721751491
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_h1_font:
+            -
+              value: font_1
+          field_h1_second_line:
+            -
+              value: 'H1 Second Line'
+          field_h1_title:
+            -
+              value: 'The Front Page'
+          field_hero_background_color:
+            -
+              value: light
+          field_hero_body:
+            -
+              value: '<p>Hero Body.</p>'
+              format: full_html
+          field_hero_bottom_message:
+            -
+              value: 'This is the Hero Bottom Message'
+          field_hero_bottom_message_link:
+            -
+              uri: 'https://google.com'
+              title: ''
+              options: {  }
+          field_hero_centered:
+            -
+              value: true
+          field_hero_image_caption:
+            -
+              value: 'This is the hero image caption.'
+          field_hero_image_position:
+            -
+              value: image_right
+          field_hero_link_subtext:
+            -
+              value: 'This is some subtext.'
+          field_hero_links:
+            -
+              uri: 'https://google.com'
+              title: 'Button 1'
+              options:
+                attributes:
+                  class:
+                    - blue
+            -
+              uri: 'https://bing.com'
+              title: 'Button 2'
+              options:
+                attributes:
+                  class:
+                    - green
+          field_hero_text_color:
+            -
+              value: dark
+  field_page_type:
+    -
+      value: basic

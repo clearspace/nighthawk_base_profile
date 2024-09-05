@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.a11y_paragraphs_tab_content.field_a11y_para_tabs_text_area
+    - paragraphs.paragraphs_type.a11y_paragraphs_tab_content
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.a11y_paragraphs_tab_content.default
+targetEntityType: paragraph
+bundle: a11y_paragraphs_tab_content
+mode: default
+content:
+  field_a11y_para_tabs_text_area:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stacking
+    - paragraphs.paragraphs_type.four_columns
+  module:
+    - options
+id: paragraph.four_columns.field_stacking
+field_name: field_stacking
+entity_type: paragraph
+bundle: four_columns
+label: Stacking
+description: 'On mobile devices, should these columns be stacked two rows of two columns (Double) or four rows of one column (Single)?'
+required: true
+translatable: false
+default_value:
+  -
+    value: single
+default_value_callback: ''
+settings: {  }
+field_type: list_string

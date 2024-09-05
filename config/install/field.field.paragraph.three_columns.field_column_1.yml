@@ -1,0 +1,97 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column_1
+    - paragraphs.paragraphs_type.a11y_paragraphs_tabs_wrapper
+    - paragraphs.paragraphs_type.accordions
+    - paragraphs.paragraphs_type.image_and_text
+    - paragraphs.paragraphs_type.image_text_with_link
+    - paragraphs.paragraphs_type.image_title_text_link
+    - paragraphs.paragraphs_type.link
+    - paragraphs.paragraphs_type.text_area
+    - paragraphs.paragraphs_type.three_columns
+    - paragraphs.paragraphs_type.video
+    - paragraphs.paragraphs_type.view
+  module:
+    - entity_reference_revisions
+id: paragraph.three_columns.field_column_1
+field_name: field_column_1
+entity_type: paragraph
+bundle: three_columns
+label: 'Column 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      image_text_with_link: image_text_with_link
+      text_area: text_area
+      view: view
+      link: link
+      video: video
+      accordions: accordions
+      image_title_text_link: image_title_text_link
+      a11y_paragraphs_tabs_wrapper: a11y_paragraphs_tabs_wrapper
+      image_and_text: image_and_text
+    negate: 0
+    target_bundles_drag_drop:
+      a11y_paragraphs_tab_content:
+        weight: 20
+        enabled: false
+      a11y_paragraphs_tabs_panel:
+        weight: 18
+        enabled: false
+      a11y_paragraphs_tabs_wrapper:
+        weight: 19
+        enabled: true
+      accordion:
+        weight: 15
+        enabled: false
+      accordions:
+        weight: 16
+        enabled: true
+      content:
+        weight: 4
+        enabled: false
+      content_with_sidebar:
+        weight: 18
+        enabled: false
+      four_columns:
+        weight: 5
+        enabled: false
+      hero:
+        weight: 6
+        enabled: false
+      image_and_text:
+        weight: 28
+        enabled: true
+      image_text_with_link:
+        weight: 8
+        enabled: true
+      image_title_text_link:
+        weight: 16
+        enabled: true
+      link:
+        weight: 15
+        enabled: true
+      text_area:
+        weight: 12
+        enabled: true
+      three_columns:
+        weight: 15
+        enabled: false
+      two_columns:
+        weight: 13
+        enabled: false
+      video:
+        weight: 15
+        enabled: true
+      view:
+        weight: 14
+        enabled: true
+field_type: entity_reference_revisions

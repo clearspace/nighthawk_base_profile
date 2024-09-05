@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 2ec07870-c3fa-40f6-b587-20921b06b0bf
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'For Employers'
+  menu_name:
+    -
+      value: top-header-left-menu
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options:
+        attributes:
+          class:
+            - ''
+        fa_icon: fa-arrow-right
+        fa_icon_prefix: fa
+        fa_icon_tag: i
+        fa_icon_appearance: after
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
