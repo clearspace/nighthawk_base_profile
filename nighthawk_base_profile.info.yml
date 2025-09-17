@@ -2,7 +2,7 @@ name: Nighthawk Base Profile
 type: profile
 description: 'Install with commonly used features pre-configured.'
 version: '1.0'
-core_version_requirement: ^10
+core_version_requirement: ^11
 install:
   - a11y_paragraphs_tabs
   - address
@@ -13,7 +13,6 @@ install:
   - admin_toolbar_tools
   - anchor_link
   - automated_cron
-  - backup_migrate
   - better_exposed_filters
   - big_pipe
   - blazy
@@ -23,12 +22,8 @@ install:
   - block_content
   - block_field
   - breakpoint
-  - ckeditor
   - ckeditor5
   - ckeditor_accordion
-  - ckeditor_font
-  - ckeditor_indentblock
-  - colorbutton
   - comment
   - conditional_fields
   - config
@@ -55,7 +50,6 @@ install:
   - entity_reference_revisions
   - entity_usage
   - entityreference_filter
-  - fakeobjects
   - faqfield
   - field
   - field_group
@@ -95,7 +89,6 @@ install:
   - oembed_providers
   - options
   - page_cache
-  - panelbutton
   - paragraphs_jquery_ui_accordion
   - paragraphs_library
   - paragraphs_webform
@@ -127,9 +120,6 @@ install:
   - toolbar
   - twig_tweak
   - user
-  - video_embed_field
-  - video_embed_media
-  - video_embed_wysiwyg
   - viewfield
   - views_bootstrap
   - views_bulk_operations
@@ -145,7 +135,6 @@ install:
   - weight
   - workflows
   - pathauto
-  - webform_bootstrap
   - views
   - paragraphs
   - twigsuggest
