@@ -1,10 +1,6 @@
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:bd2c04ed-14e0-4c27-b5e0-5ffa6935649c'
-  module:
-    - block_content
   theme:
     - nighthawk_base_theme
 id: nighthawk_base_theme_footercolumn4
@@ -18,7 +14,5 @@ settings:
   label: 'Footer Column 4'
   label_display: visible
   provider: block_content
-  status: true
-  info: ''
   view_mode: full
 visibility: {  }

@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies:
-  module:
-    - tb_megamenu
   theme:
     - nighthawk_base_theme
 id: nighthawk_base_theme_mainnavigation

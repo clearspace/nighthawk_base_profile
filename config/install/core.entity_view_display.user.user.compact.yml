@@ -7,8 +7,8 @@ dependencies:
     - image.style.thumbnail
   module:
     - field_layout
-    - image
     - layout_discovery
+    - svg_image
     - user
 third_party_settings:
   field_layout:

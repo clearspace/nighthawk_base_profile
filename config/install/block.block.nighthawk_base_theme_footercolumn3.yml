@@ -1,10 +1,6 @@
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:be808f64-cac7-4a89-a1fc-8ca99a66d348'
-  module:
-    - block_content
   theme:
     - nighthawk_base_theme
 id: nighthawk_base_theme_footercolumn3
@@ -18,7 +14,5 @@ settings:
   label: 'Footer Column 3'
   label_display: visible
   provider: block_content
-  status: true
-  info: ''
   view_mode: full
 visibility: {  }

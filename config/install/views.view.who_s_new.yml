@@ -3,6 +3,7 @@ status: true
 dependencies:
   module:
     - user
+    - views_year_filter
 id: who_s_new
 label: "Who's new"
 module: user

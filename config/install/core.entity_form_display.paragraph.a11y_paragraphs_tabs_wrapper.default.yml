@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.a11y_paragraphs_tabs_wrapper.field_a11y_para_tabs_sec_title
     - field.field.paragraph.a11y_paragraphs_tabs_wrapper.field_a11y_para_tabs_tabs_panel
     - field.field.paragraph.a11y_paragraphs_tabs_wrapper.field_h2_title
     - paragraphs.paragraphs_type.a11y_paragraphs_tabs_wrapper
@@ -41,5 +42,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_a11y_para_tabs_sec_title: true
   status: true
   uid: true

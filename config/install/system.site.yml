@@ -1,6 +1,6 @@
 langcode: en
-name: 'Nighthawk Base'
-mail: admin@nighthawkmarketing.com
+name: 'Drush Site-Install'
+mail: admin@example.com
 slogan: ''
 page:
   403: ''

@@ -1,0 +1,19 @@
+super_login:
+  login_text: Username
+  forgot_pw_text: 'Reset your password'
+  capslock_msg: 'Caps Lock is on'
+  new_account_text: 'Create new account'
+  login_title: 'Log in'
+  password_reset_title: ''
+  back_link: ''
+  messages: true
+  css: true
+  button_theme: null
+  placeholder: true
+  autofocus: true
+  login_type: 0
+  capslock: true
+  login_placeholder: ''
+  pass_placeholder: ''
+  login_button_text: Login
+  reg_button_text: Register

@@ -3,9 +3,9 @@ status: true
 dependencies: {  }
 id: default_providers
 label: 'Default Providers'
-description: ''
 providers:
   - Facebook
   - Twitter
   - Vimeo
   - YouTube
+description: ''
